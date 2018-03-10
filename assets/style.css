@@ -1,0 +1,39 @@
+div.gems {
+    width: 600px; 
+    padding-left: 15%;
+    margin: 20px;
+    display: inline-block; 
+}
+div.gems img {
+
+    width: 100px;
+    height: 130px;
+    padding: 5px;
+}
+li {
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    font: 20px;
+    padding-left: 12.5%;
+    list-style: none;
+}
+h1 {
+    font: #5e5656 60px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+h3 {
+    font-style: #968888;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    padding-left: 15%;
+    height: 10px;
+    margin: none;
+    font-size:23px;
+}
+h2 {
+    font: #5e5656 60px;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    padding-left: 15%;
+}
