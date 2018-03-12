@@ -37,3 +37,15 @@ h2 {
     font-family: 'Cabin', sans-serif;
     padding-left: 15%;
 }
+p {
+    display: inline;
+    padding-left: 95px;
+    font-weight: bold;
+    margin-left: 6%;
+    size: 30px;
+    font-family: 'Cabin', sans-serif;
+    color: hsl(0, 65%, 36%);
+}
+button {
+    border: none;
+}
