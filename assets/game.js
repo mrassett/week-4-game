@@ -16,12 +16,6 @@ let computerNumber = 0;
 $("#Wins").html(wins);
 $("#Losses").html(losses);
 
-$('#show1').html(gem1);
-$('#show2').html(gem2);
-$('#show3').html(gem3);
-$('#show4').html(gem4);
-
-
 
 // When the page loads a random number should be generated and then displayed on the DOM
 $(document).ready(function() {
@@ -59,10 +53,6 @@ const restart = function() {
             gem2 = Math.floor(Math.random()*2+4);
             gem3 = Math.floor(Math.random()*5+5);
             gem4 = Math.floor(Math.random()*3+10);
-            $('#show1').html(gem1);
-            $('#show2').html(gem2);
-            $('#show3').html(gem3);
-            $('#show4').html(gem4);
             computerNumber = Math.floor(Math.random()*60+10);
             $('#computerNumber').text(computerNumber);
         }
